@@ -100,7 +100,7 @@ int main()
     printf("## Done\n");
 
     int score = 0;
-    int data_num = 10000;
+    int data_num = 1;
     for(int i = 0; i < data_num; i++)
     {
         int idx = 0;
