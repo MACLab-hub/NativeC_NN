@@ -169,7 +169,6 @@ void read_data(float *Original_Data, int *Class)
 
     char buf[100] = { 0, };
 
-    // 데이터 받아오기 (RGB 3channel로수정해서 파일 먼저 만들고 받기)
     for(int i = 0; fgets(buf, 100, fp1) != NULL; i++)
         Original_Data[i] = atof(buf);
     for(int i = 0; fgets(buf, 100, fp2) != NULL; i++)
