@@ -3,9 +3,9 @@ __: Library-free Neural Network(NN) Inference Code for System Simulation__
 
 | Network | Model | Structure | Dataset | 
 |:-------:|:-----:|:----------|:-------:|
-| BNN | VGG-BinaryNet | ? | CIFAR-10 |
-| CNN | VGG-like | ? | CIFAR-10 |
-| TNN | ? | ? | CIFAR-10 |
+| CNN | VGG-like | 128C3-128C3-256C3-256C3-512C3-512C3-1024FC-1024FC-10FC | CIFAR-10 |
+| BNN | VGG-BinaryNet | 128C3-128C3-256C3-256C3-512C3-512C3-1024FC-1024FC-10FC | CIFAR-10 |
+| TNN | VGG-TNN | 128C3-128C3-256C3-256C3-512C3-512C3-1024FC-1024FC-10FC | CIFAR-10 |
 
 <br/>
 
